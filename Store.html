@@ -3,156 +3,147 @@
 <head>
     <title>Drake | STORE</title>
     <meta name="description" content="Learn about Drake, the Canadian rapper, singer, and actor. Discover his music career, major hits, and entrepreneurial ventures.">
+     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <nav>
+<header class="main-header">
+    <nav class="nav main-nav">
         <ul>
             <li><a href="Index.html">HOME</a></li>
             <li><a href="Store.html">STORE</a></li>
             <li><a href="About.html">ABOUT</a></li>
         </ul>
     </nav>
-    <hr>
-    <h1>Drake</h1>
+    <h1 class="Musician-name Musician-name-large">Drake</h1>
 </header>
-<section>
-    <h2>MUSIC</h2>
-    <div>
-    <div>
-        <strong>"Nothing Was the Same"</strong>
-    </div>
-        <img src="images/Album 1.webp" width="220" height="190">
-     <div>
-        <span>$12.99</span>
-        <button type="button">ADD TO CART</button>
-     </div>   
-    </div>
+<section class="content-section container">
+    <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Album 1</span>
+                <img class = "shop-item-image" src="images/Album 1.webp" width="220" height="190">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$12.99</span>
+                <button class = "btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>   
+            </div>
 
-    <div>
-    <div>
-        <strong>"Scorpion"</strong>
-    </div>
-        <img src="images/Album 2.jpg" width="220" height="190">
-     <div>
-        <span>$14.99</span>
-        <button type="button">ADD TO CART</button>
-     </div>   
-    </div>
-    
-    <div>
-    <div>
-        <strong>"Comeback Season"</strong>
-    </div>
-        <img src="images/Album 3.jpg" width="220" height="200">
-     <div>
-        <span>$9.99</span>
-        <button type="button">ADD TO CART</button>
-     </div>   
-    </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 2</span>
+                <img class = "shop-item-image" src="images/Album 2.jpg" width="220" height="190">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$14.99</span>
+                <button class = "btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>   
+            </div>
+            
+            <div class="shop-item">
+                <span class="shop-item-title">Album 3</span>
+                <img class = "shop-item-image" src="images/Album 3.jpg" width="220" height="200">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$9.99</span>
+                <button class = "btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>   
+            </div>
 
-    <div>
-    <div>
-        <strong>"Take Care"</strong>
-    </div>
-        <img src="images/Album 4.jpg" width="220" height="190">
-     <div>
-        <span>$19.99</span>
-        <button type="button">ADD TO CART</button>
-     </div>   
-    </div>
-
+            <div class="shop-item">
+                <span class="shop-item-title">Album 4</span>
+                <img class = "shop-item-image" src="images/Album 4.jpg" width="220" height="190">
+            <div class="shop-item-details">
+                <span class="shop-item-price">$19.99</span>
+                <button class = "btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>   
+            </div>
+        </div>
 <section>
 
-<section>
-    <h2>MERCH</h2>
-  <div>
-    <div>
-        <strong>"T-Shirt"</strong>
-    </div>
-        <img src="images/Merch 1.jpg" width="220" height="190">
-     <div>
-        <span>$19.99</span>
-        <button type="button">ADD TO CART</button>
+<section class="content-section container">
+    <h2 class="section-header">MERCH</h2>
+<div class="shop-items">
+  <div class="shop-item">
+        <span class="shop-item-title">"T-Shirt"</span>
+        <img class = "shop-item-image" src="images/Merch 1.jpg" width="220" height="190">
+     <div class="shop-item-details">
+        <span class="shop-item-price">$19.99</span>
+        <button class = "btn btn-primary shop-item-button" type="button">ADD TO CART</button>
      </div>   
     </div>
 
-    <div>
-    <div>
-        <strong>"Coffe Cup"</strong>
-    </div>
-        <img src="images/Merch 2.jpg" width="220" height="190">
-     <div>
-        <span>$6.99</span>
-        <button type="button">ADD TO CART</button>
+    <div class="shop-item">
+        <span class="shop-item-title">"Coffe Cup"</span>
+        <img class = "shop-item-image" src="images/Merch 2.jpg" width="220" height="190">
+     <div class="shop-item-details">
+        <span class="shop-item-price">$6.99</span>
+        <button class = "btn btn-primary shop-item-button" type="button">ADD TO CART</button>
      </div>   
     </div>
-
+</div>
 </section>
 
-</section>
-    <h2>CART</h2>
-    <div>
-        <strong>ITEM</strong>
-        &lt;&gt;
-        <strong>PRICE</strong>
-        &lt;&gt;
-        <strong>QUANTITY</strong>
+</section class="content-section container">
+    <h2 class="section-header">CART</h2>
+    <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+<div class="cart-items">
+    <div class="cart-row">
+            <div class="cart-item cart-column">
+        <img class = "cart-item-img" src="images/Album 1.webp" width="90" height="90">
+        <span class="cart-item-title">Album 1</span>
+            </div>
+        <span class="cart-price cart-column">$12.99</span>
+            <div class="cart-quantity cart-column">
+        <input class = "cart-quantity-input" type="number" value="1">
+        <button class="btn btn-danger" type="button">REMOVE</button>
+        </div>
     </div>
 
-    <div>
-        <img src="images/Album 1.webp" width="90" height="90">
-        <span>Nothing Was the Same</span>
-        &lt;&gt;
-        <span>$12.99</span>
-        &lt;&gt;
-        <input type="number" value="1">
-        <button type="button">REMOVE</button>
+    <div class="cart-row">
+            <div class="cart-item cart-column">
+        <img class = "cart-item-img" src="images/Merch 1.jpg" width="90" height="90">
+        <span class="cart-item-title">T-Shirt</span>
+            </div>
+        <span class="cart-price cart-column">$19.99</span>
+        <div class="cart-quantity cart-column">
+        <input class = "cart-quantity-input" type="number" value="2">
+        <button class="btn btn-danger" type="button">REMOVE</button>
+        </div>
     </div>
-
-    <div>
-        <img src="images/Merch 1.jpg" width="90" height="90">
-        <span>T-Shirt</span>
-        &lt;&gt;
-        <span>$19.99</span>
-        &lt;&gt;
-        <input type="number" value="2">
-        <button type="button">REMOVE</button>
-    </div>
-        <hr>
-        <div>
-            <strong>TOTAL</strong>
-            &lt;&gt;
-            <span>$52.97</span>
+</div>
+        <div class="cart-total">
+            <strong class="cart-total-title">TOTAL</strong>
+            <span class="cart-total-price">$52.97</span>
         </div>
 
-        <div>
-            <button type="button">PURCHASE</button>
-        </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
 </section>
 
-<footer>
-    <h3>Drake</h3>
-    <ul>
+<footer class="main-footer">
+    <div class="container main-footer-container">
+    <h3 class="Musician-name">Drake</h3>
+    <ul class="nav footer-nav">
         <li>
             <a href="https://www.youtube.com/@DrakeOfficial" target="_blank">
-            <img src = "images/youtube-logo-png-transparent-image-5 (3).png">
+            <img src = "images/icons8-youtube-30.png">
             </a>
         </li>
 
         <li>
             <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" target="_blank">
-            <img src = "images/image (1).png">
+            <img src = "images/icons8-spotify-30.png">
             </a>
             </li>
 
 
         <li>
             <a href="https://www.instagram.com/champagnepapi/?hl=en" target="_blank">
-            <img src="images/instagram-new-2016-logo-png_seeklogo-282177 (1).png">
+            <img src="images/icons8-instagram-logo-30.png">
         </a>
         </li>
     </ul>
+    </div>
 </footer>
 </body>
 </html>
